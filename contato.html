@@ -5,16 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alô, miau!</title>
+    <link rel="stylesheet" href="assets/style/style.css">
 </head>
+
 <body>
-    <ul>
-        <li>
-            <a href="index.html">Quem somos?</a>
-        </li>
-        <li>
-            <a href="contato.html">Alô, miau!</a>
-        </li>
-    </ul>
+    <nav class="menu">
+        <ul>
+            <li>
+                <a class="hoverMenu" href="index.html">Quem somos?</a>
+            </li>
+            <li>
+                <a class="hoverMenu" href="contato.html">Alô, miau!</a>
+            </li>
+            <li>
+                <a class="hoverMenu" href="favoritos.html">Favoritos</a>
+            </li>
+        </ul>
+    </nav>
 
     <h1>Mia que eu te escuto!</h1>
 
@@ -27,14 +34,18 @@
         <input type="email" id="email">
         <br>
         <br>
+        <label for="telefone">Telefone:</label>
+        <input type="email" id="telefone">
+        <br>
+        <br>
         <label for="assunto">Assunto:</label><br>
         <textarea name="assunto" id="assunto" cols="60" rows="5"></textarea>
 
         <br>
-        <button>Miau</button>
+        <button id="enviar" onclick="envio()">Miau</button>
     </form>
 
-    <h2>Nosso lugar favorito:</h2>
+    <h2>Onde nos encontrar:</h2>
     <p>Santo André - SP</p>
 
     <iframe 
@@ -45,6 +56,27 @@
     allowfullscreen="" 
     loading="lazy" 
     referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    <footer>
+
+        <div class="container">
+
+            <a href="https://github.com/monedales" target="_blank">
+                <img class="tm-social p-30" src="assets/img/IMG_github.png" alt="Logo do GitHub">
+            </a>
+
+            <a href="https://www.instagram.com/lemo.nadaaa/" target="_blank">
+                <img class="tm-social p-30" src="assets/img/IMG_INSTAGRAM.png" alt="Logo do Intagram">
+            </a>
+
+        </div>
+
+        <p class="center">
+            Todos os direitos reservados: MonedaLes, mother of cats!
+        </p>
+    </footer>
+
+    <script src="./assets/script/script.js"></script>   
 
 
 </body>
