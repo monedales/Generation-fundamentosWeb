@@ -41,6 +41,7 @@ p
     text-decoration: none;
     font-weight: bold;
     font-family: Candara, sans-serif;
+    justify-content: space-evenly;
 }
 
 .hoverMenu:hover 
@@ -60,11 +61,6 @@ p
     justify-content: center;
     align-items: center;
 }
-
-/*img
-{
-    width: 30%;
-}*/
 
 button 
 {
@@ -91,21 +87,4 @@ button
     width: 50px;
     height: 50px;
 }
-
-/* .p-30 
-{
-    padding: 30px;
-}
-
-.br-50 
-{
-    border-radius: 50%;
-}
-
-.wh-300
-{
-    width: 300px;
-    height: 300px;
-}
-*/
 
