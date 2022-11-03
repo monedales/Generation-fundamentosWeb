@@ -21,7 +21,7 @@ p
 
 .menu 
 {
-    background: #ecf542;
+    background: #e8e343;
     height: 40px;
     max-width: 80%;
     margin: 0 auto;
@@ -86,5 +86,17 @@ button
 {
     width: 50px;
     height: 50px;
+}
+
+/* estilos contato */
+
+.mb-50
+{
+    margin-bottom: 50px;
+}
+
+.ml-50 
+{
+    margin-left: 50px;
 }
 
